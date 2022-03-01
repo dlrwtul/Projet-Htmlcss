@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+.entete {
+    background-color: #30346B;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    color: white;
+}
+
+#burger {
+    position: relative;
+    background-color: rgb(33,36,76);
+    float: left;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+}
+
+
+.trait {
+    border: 1px solid white;
+    margin: 5px;
+    width: 20px;
+}
+
+
+#tetetext h1 {
+    font-size: 6em;
+}
+
+#btn-signUp {
+    background-color: #BE2DDD;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+* .corps {
+    margin: 0% 20%;
+}
+
+#formulaire {
+    position: absolute;
+    background-color: white;
+    width: 380px;
+    height: auto;
+    z-index: 2.3;
+    margin-left: 40%;
+    margin-top: -30%;
+}
+
+#teteform {
+    position: relative;
+    background-color: #30346B;
+    padding: 15px;
+    color: white;
+}
+
+
+#croix {
+    position: relative;
+    float: right;
+    padding: 7.5px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transform: translateY(-20px);
+}
+
+#corpsform {
+    padding: 20px;
+}
+
+#fristtextform {
+    margin-bottom: 20px;
+}
+
+form input  {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+#submit-btn {
+    background-color: #BE2DDD;
+    border-radius: 5px;
+    border: none;
+    width: 75px;
+    height: 25px;
+    color: white;
+    margin-top: -5px;
+}

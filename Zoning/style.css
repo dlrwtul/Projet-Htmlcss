@@ -1,0 +1,223 @@
+body {
+    padding: 0;
+    margin: 1vh;
+}
+
+.container {
+    padding: 0.5vh 1vh;
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr 0.5fr;
+    grid-template-areas: 
+    "part-1"
+    "part-2"
+    "part-3"
+    ;
+}
+
+
+.part-1 {
+    margin: 0.5vh 0 0 0;
+    grid-area: part-1;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "part-1-1 . . . . . . . part-1-2 part-1-2 part-1-2"
+    "part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3 part-1-3"
+    ;
+}
+
+.part-1-1 {
+    margin: 0.5vh 0.5vh 1vh 0.5vh;
+    grid-area: part-1-1;
+}
+
+.part-1-2 {
+    margin: 0.5vh 0.5vh 1vh 0.5vh;
+    grid-area: part-1-2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "part-1-2-1 part-1-2-2 part-1-2-3"
+    ;
+}
+
+.part-1-2 div {
+    margin: 1vh 0.25vh 1vh 0.5vh ;
+}
+
+.part-1-2-1 {
+    grid-area: part-1-2-1;
+}
+
+.part-1-2-2 {
+    grid-area: part-1-2-2;
+}
+
+.part-1-2-3 {
+    grid-area: part-1-2-3;
+}
+
+.part-1-3 {
+    margin: 0vh 0.5vh 1vh 0.5vh;
+    grid-area: part-1-3;
+}
+
+.part-2 {
+    margin: 1vh 0;
+    grid-area: part-2;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "part-2-1"
+    "part-2-2"
+    "part-2-3"
+    ;
+}
+
+.part-2-1 {
+    margin: 1vh 0.5vh 0 0.5vh;
+    grid-area: part-2-1;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "part-2-1-1 part-2-1-2"
+    ;
+}
+
+.part-2-1-1 {
+    margin: 0.5vh;
+    grid-area: part-2-1-1;
+}
+
+.part-2-1-2 {
+    margin: 0.5vh;
+    grid-area: part-2-1-2;
+}
+
+.part-2-2 {
+    margin: 1vh 0.5vh;
+    grid-area: part-2-2;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    grid-template-areas: 
+    "part-2-2-1 part-2-2-2"
+    "part-2-2-3 part-2-2-3"
+    ;
+}
+
+.part-2-2-1 {
+    margin: 1vh 0.5vh 1vh  1vh;
+    grid-area: part-2-2-1;
+}
+
+.part-2-2-2 {
+    margin: 1vh 1vh  1vh 0.5vh;
+    grid-area: part-2-2-2;
+}
+
+.part-2-2-3 {
+    margin: 0.5vh 1vh 1vh 1vh;
+    grid-area: part-2-2-3;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "part-2-2-3-1 part-2-2-3-2 part-2-2-3-3"
+    
+    ;
+}
+
+.part-2-2-3-1 {
+    margin: 0.5vh 1vh 0.5vh 0.5vh;
+    grid-area: part-2-2-3-1;
+}
+
+.part-2-2-3-2 {
+    margin: 0.5vh 1vh 0.5vh 1vh;
+    grid-area: part-2-2-3-2;
+}
+
+.part-2-2-3-3 {
+    margin: 0.5vh 0.5vh 0.5vh 1vh;
+    grid-area: part-2-2-3-3;
+}
+
+.part-2-3 {
+    margin: 0 0.5vh 1vh 0.5vh;
+    grid-area: part-2-3;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 40% 60%;
+    grid-template-areas: 
+    "part-2-3-1 part-2-3-2 part-2-3-2"
+    "part-2-3-1 part-2-3-3 part-2-3-4"
+    ;
+}
+
+.part-2-3-1 {
+    margin: 0.75vh 0.5vh 0.75vh 0.75vh;
+    grid-area: part-2-3-1;
+}
+
+.part-2-3-2 {
+    margin: 0.75vh 1vh 0.5vh 0.5vh;
+    grid-area: part-2-3-2;
+}
+
+.part-2-3-3 {
+    margin: 0.5vh 1vh 0.75vh 0.5vh;
+    grid-area: part-2-3-3;
+}
+
+.part-2-3-4 {
+    margin: 0.5vh 1vh 0.75vh 1vh;
+    grid-area: part-2-3-4;
+}
+
+.part-3 {
+    margin: 0 0 0.5vh 0;
+    grid-area: part-3;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "part-3-1 . . . part-3-2"
+    ;
+}
+
+.part-3-1 {
+    margin: 1vh;
+    grid-area: part-3-1;
+}
+
+.part-3-2 {
+    margin: 1vh;
+    grid-area: part-3-2;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "part-3-2-1 part-3-2-2 part-3-2-3"
+    ;
+}
+
+.part-3-2-1 {
+    margin: 0.5vh;
+    grid-area: part-3-2-1;
+}
+
+.part-3-2-2 {
+    margin: 0.5vh;
+    grid-area: part-3-2-2;
+}
+
+.part-3-2-3 {
+    margin: 0.5vh;
+    grid-area: part-3-2-3;
+}

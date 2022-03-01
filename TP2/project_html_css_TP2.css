@@ -1,0 +1,86 @@
+
+
+.container  {
+    border: 2px  solid  black;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(207,226,243);
+}
+
+aside {
+    border: 2px  solid  black;
+    width: 25%;
+    height: 80%;
+    margin: 10px;
+    margin-top: 10%;
+
+}
+
+.naside {
+    position: fixed;
+    margin: 10px;
+    margin-top: 3.25%;
+}
+
+section {
+    border: 2px  solid  black;
+    width: 70%;
+    height: 80%;
+    margin: 10px;
+    margin-top: -490px;
+    margin-left: 28%;    
+}
+
+.nsection {
+    position: fixed;
+    margin-top: -520px;
+    margin-left: 14%;
+}
+
+header {
+    border: 2px  solid  black;
+    height: 15%;
+    width: 95%;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.nheader {
+    position: fixed;
+    margin: 10px;
+}
+
+article {
+    border: 2px  solid  black;
+    margin: 10px;
+    height: 60%;
+    width: 30%;
+    margin-top: 8%;
+}
+
+.narticle {
+    position: fixed;
+    margin: 10px;
+}
+
+.article2 {
+    margin-left: 34%;
+    margin-top: -300px;
+}
+
+.article3 {
+    margin-left: 66%;
+    margin-top: -302px;
+}
+
+.narticle2 {
+    position: fixed;
+    margin-left: 15%;
+    margin-top: -330px;
+}
+
+.narticle3 {
+    position: fixed;
+    margin-left: 26%;
+    margin-top: -330px;
+}

@@ -1,0 +1,177 @@
+.container {
+    width: 75%;
+    margin: 30px ;
+    margin-bottom: -20%;
+   
+
+}
+
+.navigateur_1 {
+    background-color: rgb(230,247,227);
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    padding: 15px;
+    font-size: large;
+    height: 15px;
+    margin: 15px;
+
+}
+
+.navigateur_1 li {
+    display: inline;
+    margin: 10px;
+}
+
+.navigateur_1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+#rubrique {
+    text-align: center;
+    height: 100%;
+    background-color: green;
+    margin-left: -14px;
+    padding:13.75px;
+    padding-right: 30px;
+    padding-bottom: 9px;
+    clip-path: polygon(0% 0%, 86% 0, 100% 50%, 87% 100%, 0% 100%);
+}
+.titre {
+    margin: 30px;
+    margin-left: 85px;
+}
+
+.titre h1 {
+    max-width: 45%;
+}
+
+.abonnez {
+    padding: auto;
+    width: 450px;
+    margin-top: -15px;
+    margin-left: 250px;
+}
+
+.date {
+    opacity: 0.5;
+    margin: auto;
+    margin: 10px;
+    padding-left: 200px;
+    padding-bottom: -100px;
+}
+
+
+.buttons {
+    padding-left: 200px;
+    margin-top: 40px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+.btn-facebook {
+    margin-right: 1px;
+    background-color: rgb(72,103,170);
+    width: 100px;
+}
+
+.btn-17 {
+    border: none;
+    padding: 5px;
+    margin-right: 3px;
+    color: black;
+}
+
+.btn-twitter {
+    background-color: rgb(29,161,242);
+    width: 100px;
+}
+
+.btn-inshare {
+    background-color: rgb(50,123,177);
+    width: 100px;
+}
+
+.btn-email {
+    background-color: rgb(76,145,236);
+    width: 100px;
+}
+
+article {
+    position: relative;
+    height: 40%;
+    width: 55%;
+    margin-left: 5%;
+    padding: 10px;
+    padding-top: 30px;
+    text-size-adjust: 75%;
+    display: block;
+
+}
+
+article div {
+    font-size: x-large;
+}
+
+
+.flash {
+    border-left: 1px solid black;
+    padding: 20px;
+    padding-top: 0;
+    height: 40%;
+    width: 15%;
+    margin-left: 65%;
+    margin-top: -60%;
+    margin-bottom: 10%;
+}
+.flash p {
+    margin: 30px;
+}
+#flashactu {
+    color: red;
+}
+
+span {
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+tr,td {
+    padding: 15px;
+}
+
+.datevoir {
+    opacity: 0.1;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 300px;
+}
+
+.voir {
+    opacity: 0.8;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.pubvoir {
+    opacity: 0.5;
+    font-size: small;
+    text-align: center;
+    text-transform: uppercase;
+}
+

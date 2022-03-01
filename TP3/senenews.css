@@ -1,0 +1,130 @@
+.container {
+    background-color: brown;
+    width: 75%;
+    margin: 10px;
+}
+
+.entete {
+    background-color: burlywood;
+    background-color: rgb(230,247,227);
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    height: 50px;
+}
+
+
+.entete li {
+    display: inline-block;
+    margin-top: -14px;
+    margin-right: 10px;
+}
+
+.entete ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.encemoment {
+    background-color:green ;
+    clip-path: polygon(0% 0%, 86% 0, 100% 50%, 87% 100%, 0% 100%);
+    padding: 12px;    
+    margin: 15px;
+    padding-right: 30px;
+    margin-left: -35px;
+}
+
+.encemoment a {
+    color: white;
+}
+
+.section {
+    background-color: cadetblue;
+}
+
+.perearticle {
+    background-color: chartreuse;
+}
+
+.logo {
+    background-color: chocolate;
+    width: 100px;
+    margin: 30px;
+}
+
+.politique {
+    position: absolute;
+    background-color: cornsilk;
+    font-size: x-large;
+    width: 200px;
+    margin-left: 110px;
+    margin-top: -70px;
+}
+
+.buttons {
+    padding-left: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 5px 1px;
+    border-radius: 5px;
+    margin-right: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+.btn-facebook {
+    margin-right: 1px;
+    background-color: rgb(72,103,170);
+    width: 100px;
+}
+
+.btn-17 {
+    border: none;
+    padding: 5px;
+    margin-right: 3px;
+    color: black;
+}
+
+.btn-twitter {
+    background-color: rgb(29,161,242);
+    width: 100px;
+}
+
+.btn-inshare {
+    background-color: rgb(50,123,177);
+    width: 100px;
+}
+
+.btn-email {
+    background-color: rgb(76,145,236);
+    width: 100px;
+}
+
+.article1 , .article2 {
+    background-color: darkblue;
+    width: 60%;
+}
+
+.particle {
+    max-width: 60%;
+}
+
+.article1 img {
+    position: relative;
+    margin-left: 60%;
+    margin-top: -11.35%;
+}
+
+
+
+.aside {
+    position: relative;
+    background-color: darkgreen;
+    width: 35%;
+    margin-left: 65%;
+    margin-top: -40%;
+}

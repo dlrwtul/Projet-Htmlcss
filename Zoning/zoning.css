@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.part-1 {
+    border: 2px solid red;
+}
+
+.part-1-1 {
+    border: 1px solid orangered;
+}
+
+.part-1-2 {
+    border: 1px solid orangered;
+}
+
+.part-1-2-1 {
+    border: 1px solid orangered;
+}
+
+.part-1-2-2 {
+    border: 1px solid orangered;
+}
+
+.part-1-2-3 {
+    border: 1px solid orangered;
+}
+
+.part-1-3 {
+    border: 1px solid orangered;
+}
+
+.part-2 {
+    border: 2px solid green;
+}
+
+.part-2-1 {
+    border: 1px solid orange;
+}
+
+.part-2-1-1 {
+    border: 1px solid orange;
+}
+
+.part-2-1-2 {
+    border: 1px solid orange;
+}
+
+.part-2-2 {
+    border: 1px solid indianred;
+}
+
+.part-2-2-1 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-2-2 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-2-3 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-2-3-1 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-2-3-2 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-2-3-3 {
+    border: 1px solid rgb(202, 121, 121);
+}
+
+.part-2-3 {
+    border: 1px solid purple;
+}
+
+.part-2-3-1 {
+    border: 1px solid purple;
+}
+
+.part-2-3-2 {
+    border: 1px solid purple;
+}
+
+.part-2-3-3 {
+    border: 1px solid purple;
+}
+
+.part-2-3-4 {
+    border: 1px solid purple;
+}
+
+.part-3 {
+    border: 2px solid blue;
+}
+
+.part-3-1 {
+    border: 1px solid blue;
+}
+
+.part-3-2 {
+    border: 1px solid blue;
+}
+
+.part-3-2-1 {
+    border: 1px solid blue;
+}
+
+.part-3-2-2 {
+    border: 1px solid blue;
+}
+
+.part-3-2-3 {
+    border: 1px solid blue;
+}

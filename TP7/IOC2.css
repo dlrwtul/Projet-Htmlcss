@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.container {
+    background-color: white;
+}
+.aside {
+    position: absolute;
+    width: 10%;
+    float: left;
+    background-color: #30346B;
+    color: white;
+    border-left: 1px solid dimgray ;
+    padding-right: 10px;
+    border-right: 1px solid dimgrey;
+    height: 100%;
+
+}
+
+.aside div {
+    position: relative;
+    text-align: justify;
+    padding: 25px;
+    height: 70px;
+    border-top: 1px solid dimgrey ;
+}
+
+#foto {
+
+    border-radius: 50%;
+    background-image: url("saitama2.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25%;
+    margin: 10% 25% ;
+    border: none;
+}
+
+#contactme {
+    border-bottom: 1px solid dimgrey;
+
+}
+
+.section {
+    width: 90%;
+    float: right;
+}
+
+.entete {
+    background-color: #30346B;
+    text-align: center;
+    padding: 20px;
+}
+
+#burger {
+    position: relative;
+    background-color: rgb(33,36,76);
+    float: left;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+}
+
+
+.trait {
+    border: 1px solid white;
+    margin: 5px;
+    width: 20px;
+}
+
+#tetetext {
+    color: white;
+    margin-top: -30px;
+}
+
+#tetetext h1 {
+    font-size: 6em;
+}
+
+#tetetext p {
+    position: relative;
+    margin: 40px;
+}
+
+#btn-signUp {
+    background-color: #BE2DDD;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+* .corps {
+    margin-left: 25%;
+    margin-right: 20%;
+}

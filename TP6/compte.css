@@ -1,0 +1,35 @@
+body {
+    background-image: url("tof.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.container {
+    position: relative;
+    margin-top: 15%;
+    font-size: 2em;
+    color: white;
+}
+
+
+.jours , .heures , .minutes , .secondes {
+    display: inline-block;
+    margin: 10px;
+    margin-top: -20px;
+}
+
+
+
+.jours-nbr , .heures-nbr , .minutes-nbr , .secondes-nbr {
+    position: relative;
+    width: 60px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.nouvelan {
+    margin-top: 175px;
+    font-size: 5em;
+    opacity: 0.5;
+}

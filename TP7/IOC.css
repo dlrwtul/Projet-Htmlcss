@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+}
+.entete {
+    height: 200px;
+    background-color: #30346B;
+    text-align: center;
+    padding: 20px;
+}
+
+#burger {
+    position: relative;
+    background-color: rgb(33,36,76);
+    float: left;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+}
+
+
+.trait {
+    border: 1px solid white;
+    margin: 5px;
+    width: 20px;
+}
+
+#tetetext {
+    color: white;
+    margin-top: -30px;
+}
+
+#tetetext h1 {
+    font-size: 4em;
+}
+
+#btn-signUp {
+    background-color: #BE2DDD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.corps {
+    width: 50%;
+    padding: 0 25%;
+    color: black;
+}

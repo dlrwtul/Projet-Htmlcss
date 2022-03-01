@@ -1,0 +1,161 @@
+.container {
+    width: 65%;
+    padding: 30px ;
+}
+
+.navigateur_1 {
+    background-color: rgb(230,247,227);
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    padding: 15px;
+    font-size: large;
+    height: 25px;
+    margin: 15px;
+
+}
+
+.navigateur_1 li {
+    display: inline;
+    margin: 10px;
+}
+
+.navigateur_1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+#encemoment {
+    height: 100%;
+    background-color: green;
+    margin-left: -14px;
+    padding:13px;
+    padding-right: 30px;
+    padding-bottom: 17px;
+    clip-path: polygon(0% 0%, 86% 0, 100% 50%, 87% 100%, 0% 100%);
+}
+
+#encemoment a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    position: absolute;
+    padding-left: 50px;
+    margin-top: 5px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+.btn-facebook {
+    margin-right: 1px;
+    background-color: rgb(72,103,170);
+    width: 100px;
+}
+
+.btn-17 {
+    border: none;
+    padding: 5px;
+    margin-right: 3px;
+    color: black;
+}
+
+.btn-twitter {
+    background-color: rgb(29,161,242);
+    width: 100px;
+}
+
+.btn-inshare {
+    background-color: rgb(50,123,177);
+    width: 100px;
+}
+
+.btn-email {
+    background-color: rgb(76,145,236);
+    width: 100px;
+}
+
+.logo_politique {
+    margin: 50px;
+    margin-left: 40px;
+}
+
+.logo_politique h2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 2em;
+}
+
+#logo {
+    margin-bottom: -75px;
+}
+
+
+
+
+article {
+    width: 60%;
+    padding: 10px;
+    padding-top: 30px;
+    text-size-adjust: 75%;
+    border-bottom: 1px solid black;
+    display: block;
+
+
+}
+.particle {
+    max-width: 60%;
+
+}
+
+article img {
+    margin-left: 60%;
+    margin-top: -50%;
+}
+
+
+.flash {
+    border-left: 1px solid black;
+    padding: 20px;
+    padding-top: 0;
+    height: 50%;
+    width: 30%;
+    margin-left: 65%;
+    margin-top: -52%;
+}
+.flash p {
+    margin: 30px;
+}
+#flashactu {
+    color: red;
+}
+
+span {
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+tr,td {
+    padding: 15px;
+}
+
+.voir {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}
+
